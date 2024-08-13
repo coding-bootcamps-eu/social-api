@@ -10,7 +10,7 @@ server.use(middlewares);
 router.db._.id = "id";
 
 server.use(router);
-const port = process.env.PORT || 4730;
+const port = process.env.PORT || 3000;
 server.listen(port, function () {
   console.log(`JSON Server is running on http://localhost:${port}`);
   console.log(
